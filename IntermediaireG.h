@@ -13,6 +13,8 @@
 #include <string.h>
 #include <math.h>
 
+#include "../Gear_shift/E_ModeConduite.h"
+
 class IntermediaireG{
 
     /**attributs**/
@@ -108,6 +110,7 @@ class IntermediaireG{
     int getEchAxe(){
         return echAxe;
     };
+
     double* getAxeZ(int gear, ModeConduite mode){
         double* valeurs = new double[echAxe*echAxe];
         for(int i = 0; i < echAxe*echAxe; i++)
