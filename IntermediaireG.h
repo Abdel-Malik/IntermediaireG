@@ -23,6 +23,8 @@ class IntermediaireG{
 
     static constexpr double VITESSE_MIN = 0;
     static constexpr double VITESSE_MAX = 178.6;
+    static constexpr double RPM_MIN = 0;
+    static constexpr double RPM_MAX = 8000;
     static constexpr double CHARGE_MIN = 0;
     static constexpr double CHARGE_MAX = 1;
 
