@@ -54,6 +54,7 @@ class IntermediaireG{
     //Constructeur
     IntermediaireG(){
         recuperationDonnees();
+        initRoues();
     };
     /*Méthodes publiques*/
 
